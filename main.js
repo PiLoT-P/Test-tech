@@ -15,3 +15,27 @@ function plusOne(event) {
 }
 
 parent.addEventListener("click", plusOne);
+
+const str = '123';
+const bl = true;
+
+console.log(Number(str));
+console.log(Number(bl));
+console.log(Number(null));
+console.log(Number(undefined));
+
+const arr = [
+    {
+        add: 'dasd'
+    },
+    {
+        dasd: '1'
+    }
+]
+
+const obj = {
+    dasad: 'dasd'
+}
+
+console.log(Array.isArray(arr))
+console.log(Array.isArray(obj))
